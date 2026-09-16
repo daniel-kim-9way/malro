@@ -60,7 +60,7 @@ Get-FileHash .\Malro-Setup-0.6.5-windows-x64.exe -Algorithm SHA256
 **[미래인재연구소](https://futuretalent.co.kr)** 김봉준.
 개발자가 아닌 제가 AI와 함께 만들어서 그날부터 쓰고 있는 도구입니다.
 
-만드는 방법을 가르칩니다 → **[VUILD](https://vuild.kr)**
+만드는 방법을 가르칩니다 → **[VUILD](https://futuretalent.co.kr/vuild)**
 
 ## 라이선스와 고지
 
