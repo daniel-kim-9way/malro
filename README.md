@@ -29,7 +29,7 @@
 
 ## 설치
 
-1. [Releases](https://github.com/daniel-kim-9way/malro/releases/latest)에서 `Malro-Setup-0.6.5-windows-x64.exe`를 받습니다.
+1. [Releases](https://github.com/daniel-kim-9way/malro/releases/latest)에서 `Malro-Setup-0.6.6-windows-x64.exe`를 받습니다.
 2. 실행하고 안내를 따릅니다. 관리자 권한은 필요 없습니다(내 계정 폴더에 설치됩니다).
 3. 첫 실행 화면에서 **PC 사양을 확인하고 맞는 모델을 추천**해 줍니다. 그대로 받으면 됩니다.
 
@@ -40,7 +40,7 @@
 
 **파일 확인** — 각 릴리스의 `SHA256SUMS.txt`와 비교하세요. PowerShell:
 ```powershell
-Get-FileHash .\Malro-Setup-0.6.5-windows-x64.exe -Algorithm SHA256
+Get-FileHash .\Malro-Setup-0.6.6-windows-x64.exe -Algorithm SHA256
 ```
 
 ## 기본 단축키
