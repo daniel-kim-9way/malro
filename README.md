@@ -9,8 +9,10 @@
 
 ## 무엇을 하나
 
-- **단축키 한 번 → 말하기 → 다시 한 번** 이면 정리된 문장이 입력칸에 들어갑니다.
+- **단축키를 누른 채 말하고 손을 떼면** 정리된 문장이 입력칸에 들어갑니다. 짧게 눌러 켜고 다시 눌러 끌 수도 있습니다.
 - 입력칸이 없어도 됩니다. 결과는 **항상 클립보드에도** 남습니다.
+- **그래픽카드로 받아쓸 수 있습니다.** Vulkan을 지원하는 AMD·인텔·NVIDIA 외장 카드면 됩니다. RX 6600 XT에서는 CPU보다 6배쯤 빨랐습니다.
+  CPU에 붙은 내장 그래픽은 CPU보다 느릴 수 있어서, 처리 장치를 ‘자동’으로 두면 빠른 쪽을 골라 씁니다.
 - 한 번에 **최대 10분**까지 말할 수 있습니다. 쉬는 구간마다 미리 인식해서 말을 마친 뒤 기다리는 시간을 줄입니다.
 - **정리 방식**을 고릅니다 — 그대로 받아쓰기 / 문단만 정리 / 말을 자연스럽게 정리.
 - **쓰는 곳**에 맞춰 모양이 달라집니다 — AI에게 요청(소제목·번호) / 메모(목록) / 메일(문단).
@@ -29,7 +31,7 @@
 
 ## 설치
 
-1. [Releases](https://github.com/daniel-kim-9way/malro/releases/latest)에서 `Malro-Setup-0.6.6-windows-x64.exe`를 받습니다.
+1. [Releases](https://github.com/daniel-kim-9way/malro/releases/latest)에서 `Malro-Setup-0.7.0-windows-x64.exe`를 받습니다.
 2. 실행하고 안내를 따릅니다. 관리자 권한은 필요 없습니다(내 계정 폴더에 설치됩니다).
 3. 첫 실행 화면에서 **PC 사양을 확인하고 맞는 모델을 추천**해 줍니다. 그대로 받으면 됩니다.
 
@@ -40,14 +42,14 @@
 
 **파일 확인** — 각 릴리스의 `SHA256SUMS.txt`와 비교하세요. PowerShell:
 ```powershell
-Get-FileHash .\Malro-Setup-0.6.6-windows-x64.exe -Algorithm SHA256
+Get-FileHash .\Malro-Setup-0.7.0-windows-x64.exe -Algorithm SHA256
 ```
 
 ## 기본 단축키
 
 | 하는 일 | 단축키 |
 |---|---|
-| 녹음 시작 / 완료 | `Ctrl + Alt + Space` |
+| 누른 채 말하기 · 짧게 눌러 시작 / 완료 | `Ctrl + Alt + Space` |
 | 녹음·처리 취소 | `Ctrl + Alt + Backspace` |
 | 선택한 글 음성 수정 | `Ctrl + Alt + E` |
 | 최근 결과 다시 붙여넣기 | `Ctrl + Alt + V` |
